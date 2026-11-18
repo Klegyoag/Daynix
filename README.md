@@ -25,3 +25,26 @@ The accompanying `../documentation/` folder records supported features, setup, a
 DAYNIX displays version 1.0.0. Internal Android versionCode 16 permits upgrading the prior test installation with the same signing certificate. Tapping a floating pet opens the DAYNIX AI popup. Dictation uses the installed phone speech engine and AI replies can be spoken by Android text-to-speech. More -> Security & sign-in contains an optional phone credential lock and optional Firebase email account. Firebase requires a matching google-services.json and Email/Password setup; local tasks and notes do not sync to the account. See docs/security/ for the audit and limits.
 
 Notes support multiple photos. Add photo uses Android's system image picker, saves an optimized private copy, and links it to the note through schema v5. No storage permission is required. The copies are removed when their photo or note is deleted.
+
+
+
+
+
+# DAYNIX — APK Backup
+
+This folder contains Google Drive links to the backed-up Android APK files for DAYNIX.
+
+## Version 1.0.0
+
+| APK | Google Drive |
+|---|---|
+| Debug APK | [View app-debug.apk](https://drive.google.com/file/d/1H21XfOW2haPqd7SbC1Vn6WmxMTMxifPW/view?usp=drive_link) |
+| Release APK | [View app-release-test-signed.apk](https://drive.google.com/file/d/1hj9scC2f4bqDlruHQe5SUx3t1a0d61Po/view?usp=drive_link) |
+
+**Storage:** Google Drive
+
+**Version:** 1.0.0
+
+**Purpose:** Personal APK backup and future reference.
+
+The APK binaries are stored externally and are not committed to this GitHub repository.
