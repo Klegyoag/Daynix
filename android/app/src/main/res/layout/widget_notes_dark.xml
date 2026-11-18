@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent" android:layout_height="match_parent"
+ android:orientation="vertical" android:padding="4dp" android:background="@drawable/widget_card_dark">
+ <FrameLayout android:layout_width="match_parent" android:layout_height="57dp">
+  <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/widget_neon_sunset" android:scaleType="centerCrop"/>
+  <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="horizontal" android:gravity="center_vertical" android:paddingStart="10dp" android:paddingEnd="10dp" android:background="@drawable/widget_neon_scrim">
+   <LinearLayout android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:orientation="vertical">
+    <TextView android:id="@+id/widget_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="D A Y N I X" android:textColor="#FF80B2" android:textSize="9sp" android:letterSpacing="0.2"/>
+    <TextView android:id="@+id/widget_hero" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Notes" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="21sp" android:singleLine="true"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Small notes, big ideas." android:textColor="#FFD3E3" android:textSize="9sp"/>
+   </LinearLayout>
+   <TextView android:id="@+id/widget_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FF9AC4" android:textSize="11sp" android:textStyle="bold" android:gravity="center"/>
+  </LinearLayout>
+ </FrameLayout>
+ <LinearLayout android:layout_width="match_parent" android:layout_height="31dp" android:orientation="horizontal" android:gravity="center_vertical">
+  <TextView android:id="@+id/tab_recent" android:layout_width="0dp" android:layout_weight="1" android:layout_height="28dp" android:gravity="center" android:text="▤ Recent" android:textColor="#FF9AC4" android:textSize="10sp" android:singleLine="true"/>
+  <TextView android:id="@+id/tab_pinned" android:layout_width="0dp" android:layout_weight="1" android:layout_height="28dp" android:gravity="center" android:text="♧ Pinned" android:textColor="#FF9AC4" android:textSize="10sp" android:singleLine="true"/>
+  <TextView android:id="@+id/tab_folder" android:layout_width="0dp" android:layout_weight="1" android:layout_height="28dp" android:gravity="center" android:text="▢ Folder" android:textColor="#FF9AC4" android:textSize="10sp" android:singleLine="true"/>
+  <TextView android:id="@+id/widget_add" android:layout_width="30dp" android:layout_height="28dp" android:gravity="center" android:text="+" android:textColor="#FFFFFF" android:textSize="21sp" android:background="@drawable/widget_add"/>
+ </LinearLayout>
+  <TextView android:id="@+id/note_1" android:layout_width="match_parent" android:layout_height="25dp" android:layout_marginTop="2dp" android:paddingStart="9dp" android:paddingEnd="9dp" android:gravity="center_vertical" android:singleLine="true" android:ellipsize="end" android:textSize="12sp" android:textColor="#FFF7FA" android:background="@drawable/widget_neon_row"/>
+  <TextView android:id="@+id/note_2" android:layout_width="match_parent" android:layout_height="25dp" android:layout_marginTop="2dp" android:paddingStart="9dp" android:paddingEnd="9dp" android:gravity="center_vertical" android:singleLine="true" android:ellipsize="end" android:textSize="12sp" android:textColor="#FFF7FA" android:background="@drawable/widget_neon_row"/>
+  <TextView android:id="@+id/note_3" android:layout_width="match_parent" android:layout_height="25dp" android:layout_marginTop="2dp" android:paddingStart="9dp" android:paddingEnd="9dp" android:gravity="center_vertical" android:singleLine="true" android:ellipsize="end" android:textSize="12sp" android:textColor="#FFF7FA" android:background="@drawable/widget_neon_row"/>
+ <TextView android:id="@+id/widget_progress" android:layout_width="match_parent" android:layout_height="13dp" android:gravity="center_vertical|end" android:textColor="#FF9AC4" android:textSize="9sp"/>
+</LinearLayout>
